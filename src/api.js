@@ -36,7 +36,6 @@ const popular_games = `games?key=${process.env.REACT_APP_GAMES_API}&dates=${last
 
 export const popularGamesURL = () => `${base_url}${popular_games}`
 
-console.log(popularGamesURL());
 
 
 
